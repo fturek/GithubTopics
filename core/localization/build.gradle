@@ -1,0 +1,10 @@
+plugins {
+    alias(libs.plugins.androidLibrary)
+}
+apply from: "$rootDir/gradle/module.gradle"
+
+android {
+    compileSdk androidCompileSdk
+
+    namespace 'com.example.localization'
+}

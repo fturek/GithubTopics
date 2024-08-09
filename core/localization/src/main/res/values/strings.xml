@@ -1,0 +1,12 @@
+<resources>
+    <string name="trending_projects_top_appbar_name">Trending Projects</string>
+    <string name="trending_projects_empty_list_view_message">Empty list. Try again later!</string>
+    <string name="trending_projects_error_list_view_title">Oops! Something went wrong.</string>
+    <string name="trending_projects_error_list_view_message">Try again!</string>
+
+    <string name="trending_project_details_top_appbar_name">Trending Project Details</string>
+    <string name="trending_project_details_top_owner_label">Owner: %s</string>
+    <string name="trending_project_details_top_language_label">Language: %s</string>
+    <string name="trending_project_details_top_watchers_count_label">WatchersCount: %s</string>
+    <string name="trending_project_details_top_forks_count_label">Forks: %s</string>
+</resources>

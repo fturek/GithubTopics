@@ -1,0 +1,12 @@
+<resources>
+    <string name="trending_projects_top_appbar_name">Popularne projekty</string>
+    <string name="trending_projects_empty_list_view_message">Pust lista. Spróbuj ponownie później!</string>
+    <string name="trending_projects_error_list_view_title">Łopsss! Coś poszło nie tak.</string>
+    <string name="trending_projects_error_list_view_message">Spróbuj ponownie!</string>
+
+    <string name="trending_project_details_top_appbar_name">Detale projektu</string>
+    <string name="trending_project_details_top_owner_label">Właścicel: %s</string>
+    <string name="trending_project_details_top_language_label">Język: %s</string>
+    <string name="trending_project_details_top_watchers_count_label">Liczba obserwującycj: %s</string>
+    <string name="trending_project_details_top_forks_count_label">Forki: %s</string>
+</resources>

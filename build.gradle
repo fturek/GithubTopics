@@ -1,0 +1,19 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    apply from: "gradle/android_versions.gradle"
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath libs.gradle
+    }
+}
+
+plugins {
+    alias(libs.plugins.androidApplication) apply false
+    alias(libs.plugins.jetbrainsKotlinAndroid) apply false
+    alias(libs.plugins.androidLibrary) apply false
+    alias(libs.plugins.composeCompiler) apply false
+    alias(libs.plugins.hiltAndroid) apply false
+    alias(libs.plugins.ksp) apply false
+}

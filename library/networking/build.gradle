@@ -1,0 +1,37 @@
+plugins {
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.ksp)
+}
+apply from: "$rootDir/gradle/module.gradle"
+
+android {
+    namespace 'com.example.networking'
+}
+
+dependencies {
+
+    implementation project(':core:base')
+
+    // hilt
+    implementation libs.hilt.navigation
+    implementation libs.hilt.android
+    ksp libs.hilt.compiler
+
+    // room
+    implementation libs.androidx.room.common
+    implementation libs.androidx.room.runtime
+    implementation libs.androidx.room.ktx
+    annotationProcessor libs.androidx.room.compiler
+    ksp libs.androidx.room.compiler
+
+    // networking
+    implementation libs.retrofit
+    implementation libs.retrofit.gsonconverter
+
+    // okhttp
+    implementation libs.okhttp
+
+    // timber
+    implementation libs.timber
+}
